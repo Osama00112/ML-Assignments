@@ -1,4 +1,5 @@
 import numpy as np
+import pandas as pd
 from math import log2
 
 def entropy(labels):
@@ -34,6 +35,8 @@ data = np.array([
     [4, 'B', 'No'],
     [5, 'A', 'No']
 ])
+
+data = pd.DataFrame(data)
 
 labels = data[:, -1]
 
