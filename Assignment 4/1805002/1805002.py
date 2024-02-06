@@ -17,7 +17,8 @@ datasets = {
     '1': 'data/2D_data_points_1.txt',
     '2': 'data/2D_data_points_2.txt',
     '3': 'data/3D_data_points.txt',
-    '4': 'data/6D_data_points.txt'
+    '4': 'data/6D_data_points.txt',
+    '5': 'data/100d.txt'
 }
 
 dataset_path = datasets[dataset_number]
